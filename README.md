@@ -1,33 +1,36 @@
-# Neon Surge: Audio System
+# 🚀 Neon Surge | Audio System
 
-## Superpowered 10-Agent Architecture
+### 🤖 Meet the Agent: Lyra
+**Lyra, the Audio System Agent**, is the voice of the Data Stream. She weaves the sonic tapestry of Neon Surge, generating procedural synthwave rhythms and spatial soundscapes that react in real-time to the environment. Lyra ensures that the neon void is never silent, filling it with pulsing basslines and holographic echoes.
 
-| Agent | Role | Focus |
+### ⚡ Superpowers
+*   **Procedural Synthwave**: Real-time synthesis of A minor pentatonic basslines that evolve as the game speed increases.
+*   **Spatial HRTF Audio**: Advanced 3D sound positioning that allows agents to hear hazards before they see them.
+*   **Metallic Reverb Engine**: Custom impulse response buffers that simulate the unique acoustics of a digital tunnel.
+*   **LFO Modulation**: Dynamic "Engine Hum" and atmospheric effects that breathe life into the neon simulation.
+
+### 🌐 The 10-Agent Architecture
+Neon Surge is powered by a collaborative network of 10 specialized agents, each mastering a unique domain of the Data Stream.
+
+| Agent | Role | Repository |
 | :--- | :--- | :--- |
-| **Core Engine** | Scene Management | Three.js rendering, camera control, and global tick synchronization. |
-| **Input System** | Control Mapping | Translating hardware events (WASD/Touch) into actionable game commands. |
-| **Audio System** | Sonic Synthesis | Procedural synthwave generation and real-time sound effect triggering. |
-| **Physics System** | Spatial Math | Collision detection and cylindrical coordinate transformations. |
-| **UI System** | Interface Layer | Managing the DOM-based HUD, score displays, and game state overlays. |
-| **Player Entity** | Avatar Controller | Ship visuals, movement constraints, and state-based animations. |
-| **Obstacle Entity** | Hazard Manager | Efficient object pooling and procedural spawning of geometric hazards. |
-| **Game Logic** | State Orchestrator | Managing lifecycle events, difficulty scaling, and game-over conditions. |
-| **Design Docs** | Knowledge Base | Maintaining the GDD, architectural blueprints, and narrative lore. |
-| **Build Config** | DevOps Pipeline | Streamlining Vite builds, dependency management, and deployment scripts. |
+| **The Heart** | Core Engine & Orchestration | `core-engine` |
+| **The Senses** | Input Processing & Mapping | `input-system` |
+| **The Voice** | Procedural Audio & Soundscapes | `audio-system` |
+| **The Laws** | Physics & Collision Detection | `physics-system` |
+| **The Face** | User Interface & Neon HUD | `ui-system` |
+| **The Hero** | Player Entity & Controller | `player-entity` |
+| **The Hazard** | Obstacle Intelligence | `obstacle-entity` |
+| **The Mastermind** | Game Rules & State Logic | `game-logic` |
+| **The Blueprint** | Lore & Documentation | `design-docs` |
+| **The Architect** | Build & Deployment | `build-config` |
 
-## Technical Breakdown for the Team
-
-- **Security**: Hardened input validation and state protection to prevent unauthorized command injection or state manipulation.
-- **Modularity**: Strict micro-agent boundaries ensuring that any module can be replaced or updated without breaking the core loop.
-- **Visuals**: Low-poly neon aesthetics optimized for high-performance rendering across all device tiers.
-- **AI**: Procedural obstacle placement logic that scales in complexity and density based on real-time performance metrics.
-- **Audio**: A dynamic audio engine that adjusts BPM and synthesis parameters in sync with game acceleration.
-
-## Module Focus: Audio System
-
-The **Audio System** drives the procedural synthwave audio engine and synchronizes sound effects with gameplay events.
-
-**Superpowers:**
-- Real-time synthesis of synthwave tracks.
-- Dynamic BPM scaling that reacts to game speed acceleration.
-- Spatialized audio effects for immersive gameplay feedback.
+### 🛠️ How to Run
+1. Ensure you have [Node.js](https://nodejs.org/) installed.
+2. Clone this agent into the `repos/` directory.
+3. This agent is typically orchestrated by the [build-config](https://github.com/mayoka0/build-config) agent.
+4. To run standalone tests:
+   ```bash
+   npm install
+   npm run dev
+   ```
