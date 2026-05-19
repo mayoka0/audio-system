@@ -1,0 +1,16 @@
+{
+  "name": "audio-system",
+  "version": "1.0.0",
+  "description": "Aura: Harmonizing Procedural Soundscapes",
+  "main": "AudioManager.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "echo \"Dev mode not configured. This is a library meant for Neon Surge.\""
+  },
+  "keywords": [],
+  "author": "mayoka0",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
